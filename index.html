@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+		 <link rel="stylesheet" href="font/Rimouski.css">
+    <link rel="stylesheet" href="istyle.css">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>MOKGADI MOGOELELWA</title>
+    </head>
+    
+    <body>
+
+        <!--===== HEADER =====-->
+        <header class="l-header">
+		
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo"></a><br>
+                    
+                    
+                   
+                </div>
+                
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="cvindex.html" class="nav__link">About</a></li>
+                   
+                    </ul>
+                </div>
+            </nav>
+			
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <div class="home__img">
+                        <img src="assets/img/01.jpeg" alt="" data-speed="-2" class="move">
++
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Welcome!!<br></h1>
+                        <p class="home__description">Am Mokgadi Mogoelelwa, a software developer student <br> from Tshwana University of technology.<br>Am currently enrolled for a <br>learnership at dynamic dna in Randburg.</p>
+                        <a href="cvindex.html" class="home__button">see more</a>
+					
+                    <div class="notification"> </div>
+                    <div class="weather-container">
+                        <div class="weather-icon">
+                            <img src="icons/unknown.png" alt="">
+                        </div>
+                        <div class="temperature-value">
+                            <p>- °<span>C</span></p>
+                        </div>
+                        <div class="temperature-description">
+                            <p> - </p>
+                        </div>
+                        <div class="location">
+                            <p>-</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+   
+        <!--===== GSAP =====-->
+		    <script src="app.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
